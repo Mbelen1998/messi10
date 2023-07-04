@@ -1,0 +1,18 @@
+header{
+
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    padding: 20px;;
+}
+
+header img{ 
+    width: 100px ; /* Modifica el ancho de un elemento */
+    /*height: 100px ;  Modifica el alto de un elemento */
+    object-fit: cover; /* Controla la deformacion de las imagenes */
+}
+
+header ul{
+    display:flex;
+    gap: 40px;
+}
